@@ -60,3 +60,5 @@ Minimalist Java desktop app to track student productivity throughout the day, ma
 - A .jar executable file has been placed which can be run by simply double clicking.
 - Make use of Go Back buttons and not directly close else the whole app closes itself.
 - By default all the hours have been set to Productive in Productivity Tracker.
+- Make sure you have the lastest version of JAVA installed in your system.
+- For beginning, username : yash and password : yash can be used. 
