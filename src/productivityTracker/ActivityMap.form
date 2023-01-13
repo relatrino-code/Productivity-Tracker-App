@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="1" pref="800" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+        <Property name="verticalScrollBarPolicy" type="int" value="21"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="33" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                              <Component id="jScrollPane2" min="-2" pref="746" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="295" max="-2" attributes="0"/>
+                              <Component id="jButton1" min="-2" pref="196" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="191" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="293" max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="37" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel1" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="640" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="24" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial Black" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="ACTIVITY MAP"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTable1">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="2" rowCount="57">
+                        <Column editable="true" title="DATE" type="java.lang.String">
+                          <Data value="July 05 (T)"/>
+                          <Data value="July 05 (T)"/>
+                          <Data value="July 10 (Su)"/>
+                          <Data value="August 11 (Th)"/>
+                          <Data value="August 15 (M)"/>
+                          <Data value="August 19 (F) "/>
+                          <Data value="August 29 (M)"/>
+                          <Data value="August 29 (M)"/>
+                          <Data value="August 30 (T) "/>
+                          <Data value="August 31 (W)"/>
+                          <Data value="September 16 (F)"/>
+                          <Data value="October 02 (Su)"/>
+                          <Data value="October 05 (W)"/>
+                          <Data value="October 24 (M) - 25 (T)"/>
+                          <Data value="October 31 (M) to November 05 (S)"/>
+                          <Data value="November 05 (S) "/>
+                          <Data value="November 08 (T) "/>
+                          <Data value="November 12 (S) "/>
+                          <Data value="December 15 (Th)"/>
+                          <Data value="December 15 (Th)"/>
+                          <Data value="December 17 (S)"/>
+                          <Data value="December 19 (M)"/>
+                          <Data value="December 25 (Su) "/>
+                          <Data value="December 31 (S) "/>
+                          <Data value="December 31 (S)"/>
+                          <Data value="January 01 (Su) - January 15 (Su) "/>
+                          <Data value="January 14 (S)"/>
+                          <Data value="January 16 (M)"/>
+                          <Data value="January 16 (M)"/>
+                          <Data value="January 16 (M)"/>
+                          <Data value="January 17 (T) "/>
+                          <Data value="January 17 (T) "/>
+                          <Data value="January 26 (Th)"/>
+                          <Data value="January 30 (M) "/>
+                          <Data value="February 18 (S)"/>
+                          <Data value="March 08 (W) "/>
+                          <Data value="March 13 (M) &#x2013; 18 (S) "/>
+                          <Data value="March 18 (S) "/>
+                          <Data value="March 22 (W)"/>
+                          <Data value="March 25 (S) "/>
+                          <Data value="March 30 (Th)"/>
+                          <Data value="April 04 (T) "/>
+                          <Data value="April 07 (F) "/>
+                          <Data value="April 22 (S) "/>
+                          <Data value="May 03 (W)"/>
+                          <Data value="May 04 (Th)"/>
+                          <Data value="May 05 (F) "/>
+                          <Data value="May 06 (S) "/>
+                          <Data value="May 22 (M) "/>
+                          <Data value="May 22 (M)"/>
+                          <Data value="May 22 (M)"/>
+                          <Data value="May 23 (T)"/>
+                          <Data value="May 23 (T)"/>
+                          <Data value="June 26 (M)"/>
+                          <Data value="July 18 (T) "/>
+                          <Data value="July 18 (T)"/>
+                          <Data value="July 20 (Th)"/>
+                        </Column>
+                        <Column editable="true" title="ACTIVITY" type="java.lang.String">
+                          <Data value="Registration for Practice School II"/>
+                          <Data value="Practice School II begins"/>
+                          <Data value="Id-ul-Zuha (H)"/>
+                          <Data value="Raksha Bandhan (H)"/>
+                          <Data value="Independence Day (H)"/>
+                          <Data value="Janmashtami (H)"/>
+                          <Data value="First Semester begins"/>
+                          <Data value="Registration for all students"/>
+                          <Data value="Classwork begins"/>
+                          <Data value="Ganesh Chaturthi (H)"/>
+                          <Data value="Last day for substitution of courses"/>
+                          <Data value="Mahatma Gandhi&#x2019;s Birthday (H)"/>
+                          <Data value="Dussehra (H)"/>
+                          <Data value="Diwali (H)"/>
+                          <Data value="Midsemester Test"/>
+                          <Data value="Last day for withdrawal from courses"/>
+                          <Data value="Guru Nanak&#x2019;s Birthday (H)"/>
+                          <Data value="Last day for Mid-Semester Grading"/>
+                          <Data value="Last day for classwork"/>
+                          <Data value="Practice School II ends"/>
+                          <Data value="Comprehensive Examination begins"/>
+                          <Data value="Goa Liberation Day (H)"/>
+                          <Data value="Christmas (H) "/>
+                          <Data value="Comprehensive Examination ends "/>
+                          <Data value="First Semester ends"/>
+                          <Data value="Recess "/>
+                          <Data value="January 14 (S)"/>
+                          <Data value="Second Semester begins "/>
+                          <Data value="Registration for all students "/>
+                          <Data value="Registration for Practice School II"/>
+                          <Data value="Practice School II"/>
+                          <Data value="Classwork begins "/>
+                          <Data value="Republic Day (H) &amp; Basant Panchami (H)"/>
+                          <Data value="Last day for substitution of courses "/>
+                          <Data value="Maha Shivratri (H) "/>
+                          <Data value="Holi (H) "/>
+                          <Data value="Midsemester Test"/>
+                          <Data value="Last day for withdrawal from courses"/>
+                          <Data value="Ugadi (H) "/>
+                          <Data value="Last day for Mid-Semester Grading"/>
+                          <Data value="Ram Navami (H)"/>
+                          <Data value="Mahavir Jayanti (H)"/>
+                          <Data value="Good Friday (H) "/>
+                          <Data value="Id-ul Fitr (H)"/>
+                          <Data value="Registration for Practice School I"/>
+                          <Data value="Last day for classwork"/>
+                          <Data value="Buddha Purnima (H) "/>
+                          <Data value="Comprehensive Examination begins "/>
+                          <Data value="Comprehensive Examination ends"/>
+                          <Data value="Second Semester ends "/>
+                          <Data value="Summer Vacation begins"/>
+                          <Data value="Summer term begins"/>
+                          <Data value="Practice School I begins"/>
+                          <Data value="Practice School II ends"/>
+                          <Data value="Practice School I ends"/>
+                          <Data value="Summer Term ends"/>
+                          <Data value="Summer Vacation ends"/>
+                        </Column>
+                      </Table>
+                    </Property>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0">
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                      </TableColumnModel>
+                    </Property>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="FOR ACADEMIC YEAR 2022-23"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Close Activity Map"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Go Back"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
