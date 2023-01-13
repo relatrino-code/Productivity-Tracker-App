@@ -57,6 +57,6 @@ Minimalist Java desktop app to track student productivity throughout the day, ma
 
 **How to run:**
 
-- A .jar executable file has been placed in 50\_2422\_0001\_1776\_0336/productivityTracker/ which can be run by simply double clicking.
+- A .jar executable file has been placed which can be run by simply double clicking.
 - Make use of Go Back buttons and not directly close else the whole app closes itself.
 - By default all the hours have been set to Productive in Productivity Tracker.
